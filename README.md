@@ -11,6 +11,9 @@ Site oficial do clube fictício Seu Time F.C.
 
 O site ficará disponível em: https://jhonatanjob95-star.github.io/seu-time-fc/
 
-## Imagem do escudo
+## Imagem do logo
 
-Faça o upload do arquivo `escudo.jpg` (o escudo oficial) na raiz do repositório para que a imagem apareça no site.
+O arquivo `logo.JPG` deve estar na raiz do repositório para aparecer no site.
+
+---
+Atualizado em 11/11/2026
