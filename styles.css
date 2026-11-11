@@ -29,7 +29,7 @@ body {
     top: 0;
     background: linear-gradient(180deg, var(--blue-royal), var(--blue-deep));
     border-bottom: 3px solid var(--gold);
-    padding: 1rem 2rem;
+    padding: 0.8rem 2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -38,11 +38,20 @@ body {
 }
 
 .logo {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
     font-family: 'Bebas Neue', sans-serif;
     font-size: 2.2rem;
     letter-spacing: 2px;
     color: var(--gold);
     text-shadow: var(--text-shadow);
+}
+
+.header-logo {
+    height: 55px;
+    width: auto;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.5));
 }
 
 .nav {
@@ -357,6 +366,14 @@ h2 {
     .players-grid {
         grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
     }
+
+    .logo {
+        font-size: 1.8rem;
+    }
+
+    .header-logo {
+        height: 40px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -365,10 +382,14 @@ h2 {
     }
 
     .logo {
-        font-size: 1.8rem;
+        font-size: 1.6rem;
     }
 
     h2 {
         font-size: 2.5rem;
+    }
+
+    .header-logo {
+        height: 35px;
     }
 }
